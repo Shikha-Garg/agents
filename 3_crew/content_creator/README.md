@@ -1,6 +1,6 @@
 # ContentCreator Crew
 
-Welcome to the ContentCreator Crew project, powered by [crewAI](https://crewai.com). This template is designed to help you set up a multi-agent AI system with ease, leveraging the powerful and flexible framework provided by crewAI. Our goal is to enable your agents to collaborate effectively on complex tasks, maximizing their collective intelligence and capabilities.
+Welcome to the ContentCreator Crew project, powered by [crewAI](https://crewai.com). My goal is to enable agents to collaborate effectively on complex tasks, like creating video content.
 
 ## Installation
 
@@ -37,7 +37,6 @@ $ crewai run
 
 This command initializes the content_creator Crew, assembling the agents and assigning them tasks as defined in your configuration.
 
-This example, unmodified, will run the create a `report.md` file with the output of a research on LLMs in the root folder.
 
 ## Understanding Your Crew
 
