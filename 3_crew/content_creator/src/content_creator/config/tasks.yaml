@@ -1,0 +1,34 @@
+- id: write_script
+  description: Write a script for the video on the given topic.
+  agent: scriptwriter
+  input: 
+    - topic
+  output: 
+    - script
+
+- id: direct_video
+  description: Review the script and provide direction for the video’s style and visuals.
+  agent: director
+  input: 
+    - script
+  output: 
+    - director_notes
+
+- id: plan_shoot
+  description: Plan the video shoot, suggesting shots and camera angles.
+  agent: videographer
+  input: 
+    - script
+    - director_notes
+  output: 
+    - shot_list
+
+- id: edit_video
+  description: Edit the footage into a final video.
+  agent: editor
+  input: 
+    - shot_list
+    - script
+    - director_notes
+  output:
+    - final_video
